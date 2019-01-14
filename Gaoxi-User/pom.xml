@@ -8,13 +8,10 @@
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-
-    <groupId>com.user</groupId>
+    <groupId>com.gaoxi</groupId>
     <artifactId>user</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>user</name>
     <packaging>war</packaging>
-
-
 
 </project>
