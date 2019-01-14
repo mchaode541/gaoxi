@@ -8,7 +8,7 @@
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <groupId>com.controller</groupId>
+    <groupId>com.gaoxi</groupId>
     <artifactId>controller</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>controller</name>
