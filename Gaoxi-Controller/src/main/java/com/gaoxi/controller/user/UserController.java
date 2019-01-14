@@ -1,6 +1,6 @@
 package com.gaoxi.controller.user;
 
-import org.springframework.web.bind.annotation.GetMapping;
+import com.gaoxi.req.user.LoginReq;
 
 import javax.servlet.http.HttpServletResponse;
 
@@ -11,6 +11,6 @@ public interface UserController {
      * @param httpRsp HTTP响应
      * @return 登录是否成功
      */
-//    @GetMapping("/login")
-//    public Result login(LoginReq loginReq, HttpServletResponse httpRsp);
+
+   public void login(LoginReq loginReq, HttpServletResponse httpRsp);
 }
