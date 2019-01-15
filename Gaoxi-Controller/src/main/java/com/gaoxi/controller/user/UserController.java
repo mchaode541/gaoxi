@@ -15,4 +15,7 @@ public interface UserController {
      */
     @GetMapping("/login")
    public void login(LoginReq loginReq, HttpServletResponse httpRsp);
+
+    @GetMapping("/test")
+    public String test();
 }

@@ -29,5 +29,10 @@ public class UserControllerImpl implements UserController {
         System.out.println(">>>调用到登录系统啦啦啦啦啦啦啦");
     }
 
+    @Override
+    public String test() {
+        return "hello world";
+    }
+
 
 }
