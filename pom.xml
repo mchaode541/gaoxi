@@ -11,7 +11,7 @@
 
     <groupId>com.gaoxi</groupId>
     <artifactId>gaoxi</artifactId>
-    <version>1.0.0</version>
+    <version>0.0.1-SNAPSHOT</version>
 
     <name>gaoxi</name>
     <packaging>pom</packaging>
@@ -69,13 +69,13 @@
         <dependency>
             <groupId>com.common</groupId>
             <artifactId>common</artifactId>
-            <version>1.0.0</version>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
         <dependency>
             <groupId>com.gaoxi</groupId>
             <artifactId>user</artifactId>
-            <version>1.0.0</version>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
