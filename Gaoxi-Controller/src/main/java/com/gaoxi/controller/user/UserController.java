@@ -14,7 +14,7 @@ public interface UserController {
      * @return 登录是否成功
      */
     @GetMapping("/login")
-   public void login(LoginReq loginReq, HttpServletResponse httpRsp);
+   public void login(HttpServletResponse httpRsp);
 
     @GetMapping("/test")
     public String test();

@@ -13,16 +13,15 @@ import org.springframework.beans.factory.annotation.Autowired;
  * @author chaom
  * @create 2019-01-11 17:10
  */
-@Service(version = "1.0.0")
-@org.springframework.stereotype.Service
+@Service(version = "${Gaoxi.service.version}")
 public class UserServiceImpl implements UserService {
 
     @Autowired
     private UserDao userDao;
 
     @Override
-    public UserEntity login(LoginReq loginReq) {
-
+    public UserEntity login() {
+        userDao.login();
         return null;
     }
 }

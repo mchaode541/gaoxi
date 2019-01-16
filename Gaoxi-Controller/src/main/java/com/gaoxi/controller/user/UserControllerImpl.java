@@ -17,13 +17,13 @@ import javax.servlet.http.HttpServletResponse;
 @RestController
 public class UserControllerImpl implements UserController {
 
-    @Reference(version = "1.0.0")
+    @Reference(version = "${Gaoxi.service.version}")
     private UserService userService;
 
     @Override
-    public void login(LoginReq loginReq, HttpServletResponse httpRsp) {
+    public void login( HttpServletResponse httpRsp) {
         // 登录鉴权
-        UserEntity userEntity = userService.login(loginReq);
+        UserEntity userEntity = userService.login();
         // 登录成功
        // doLoginSuccess(userEntity, httpRsp);
         System.out.println(">>>调用到登录系统啦啦啦啦啦啦啦");

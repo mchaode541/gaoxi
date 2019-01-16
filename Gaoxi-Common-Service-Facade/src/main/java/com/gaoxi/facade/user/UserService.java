@@ -5,5 +5,5 @@ import com.gaoxi.req.user.LoginReq;
 
 public interface UserService {
 
-    public UserEntity login(LoginReq loginReq);
+    public UserEntity login();
 }
