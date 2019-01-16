@@ -1,6 +1,5 @@
 package com.gaoxi.controller.user;
 
-import com.gaoxi.req.user.LoginReq;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
