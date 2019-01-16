@@ -17,8 +17,5 @@
     <name>controller</name>
     <packaging>war</packaging>
 
-    <build>
-        <finalName>controller</finalName>
-    </build>
 
 </project>

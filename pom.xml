@@ -67,7 +67,7 @@
         </dependency>
 
         <dependency>
-            <groupId>com.common</groupId>
+            <groupId>com.gaoxi</groupId>
             <artifactId>common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
